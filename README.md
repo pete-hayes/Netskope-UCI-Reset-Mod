@@ -2,7 +2,7 @@
 A Tampermonkey userscript that adds a **Reset UCI Score** link beside the active user in the dashboard for Netskope Advanced Behavior Analytics. Clicking the link triggers the Netskope UCI (User Confidence Index) reset API for the selected user, and a small colored dot shows success or failure.
 
 ## Features
-- Adds a **Reset UCI Score** link next to each user
+- Adds a **Reset UCI Score** link beside each user
 - A circle indicator reflects the UCI reset status:
   - 🟠 Request in progress  
   - 🟢 Success  
