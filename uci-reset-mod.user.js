@@ -10,7 +10,7 @@
 (() => {
   const TENANT = 'https://example.goskope.com';   // Netskope tenant FQDN
   const TOKEN  = 'abc123def456ghi789jk';          // Netskope API token
-  const API    = `${TENANT}/api/v2/incidents/users/uci/reset`;
+  const API    = '${TENANT}/api/v2/incidents/users/uci/reset';
 
   let lastEmail = '';
 
